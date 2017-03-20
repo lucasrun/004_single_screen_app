@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Familia s.c.</string>
+    <string name="description">Jesteśmy zespołem ludzi o wysokich kwalifikacjach zawodowych, dumnych z przynależności do Praktyki Lekarza Rodzinnego „Familia”. Udzielamy naszym pacjentom świadczeń zdrowotnych: leczniczych, diagnostycznych, profilaktycznych z zakresu podstawowej opieki zdrowotnej. Prowadzimy edukację zdrowotną pacjenta oraz promocję zdrowia. Współpracujemy z instytucjami, stowarzyszeniami, samorządem lokalnym na rzecz poprawy i promocji zdrowia naszych pacjentów i społeczności lokalnej.</string>
+    <string name="info">Dane kontaktowe:</string>
+    <string name="address">ul. Niepodległości 29</string>
+    <string name="phone">tel. 81 751 67 13</string>
+    <string name="mail">familia.swidnik@gmail.com</string>
+    <string name="site">http://efamilia.pl</string>
+    <string name="time">Czynne 7:30 - 18:00</string>
+</resources>

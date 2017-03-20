@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.example.mhesah.a004_single_screen_app.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        style="@style/gfx_logo"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_hand" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logo"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffcff0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/text_description"
+                android:text="@string/description"/>
+
+            <ImageView
+                style="@style/gfx_pic"
+                android:src="@drawable/magic"/>
+
+            <ImageView
+                style="@style/gfx_pic"
+                android:src="@drawable/hand"/>
+
+            <ImageView
+                style="@style/gfx_pic"
+                android:src="@drawable/doc"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFCFF0"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/addressG"
+            style="@style/gfx_info"
+            android:layout_above="@+id/phoneG"
+            android:src="@drawable/address" />
+
+        <ImageView
+            android:id="@+id/phoneG"
+            style="@style/gfx_info"
+            android:layout_above="@+id/mailG"
+            android:src="@drawable/phone" />
+
+        <ImageView
+            android:id="@+id/mailG"
+            style="@style/gfx_info"
+            android:layout_above="@+id/siteG"
+            android:src="@drawable/mail" />
+
+        <ImageView
+            android:id="@+id/siteG"
+            style="@style/gfx_info"
+            android:layout_above="@+id/timeG"
+            android:src="@drawable/info" />
+
+        <ImageView
+            android:id="@+id/timeG"
+            style="@style/gfx_info"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/time" />
+
+        <TextView
+            android:id="@+id/street"
+            style="@style/text_info"
+            android:layout_above="@+id/phone"
+            android:text="@string/address" />
+
+        <TextView
+            android:id="@+id/phone"
+            style="@style/text_info"
+            android:layout_above="@+id/email"
+            android:text="@string/phone" />
+
+        <TextView
+            android:id="@+id/email"
+            style="@style/text_info"
+            android:layout_above="@+id/site"
+            android:text="@string/mail" />
+
+        <TextView
+            android:id="@+id/site"
+            style="@style/text_info"
+            android:layout_above="@+id/time"
+            android:text="@string/site" />
+
+        <TextView
+            android:id="@+id/time"
+            style="@style/text_info"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/time" />
+    </RelativeLayout>
+
+</RelativeLayout>
